@@ -16,7 +16,7 @@ let state = {
 
     header: {
         links: [{name: "Explorer", adress: "/explorer"}, {name: "Commuter", adress: "/commuter"}, {name: "Cruiser", adress: "/cruiser"}, 
-                {name: "For Business", adress: "/business"}, {name: "Home", adress: "/"}]
+                {name: "For Business", adress: "/business"}, {name: "About", adress: "/about"}, {name: "Home", adress: "/"}]
     },
     explorer: {
         id: 1, price: '59', model: 'Explorer', kind: 'Ebike', image: `${explorer}`, 
