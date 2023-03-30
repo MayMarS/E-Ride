@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/E-Ride/static/css/main.5e773ffd.css",
+    "main.js": "/E-Ride/static/js/main.1d9d5c68.js",
+    "static/media/bg-cities.jpg": "/E-Ride/static/media/bg-cities.cee37f709c2e5f3a48d0.jpg",
+    "static/media/cruiser.png": "/E-Ride/static/media/cruiser.4053b873ce9b65abcac8.png",
+    "static/media/explorer.png": "/E-Ride/static/media/explorer.9af1652689c27b12001c.png",
+    "static/media/commuter.png": "/E-Ride/static/media/commuter.fbfd2346c13f1e8729af.png",
+    "static/media/bg-main-image.jpg": "/E-Ride/static/media/bg-main-image.2ca07100a28c7a7c2418.jpg",
+    "static/media/bg-footer.jpg": "/E-Ride/static/media/bg-footer.f6d3751d3d448b2c5ab1.jpg",
+    "static/media/map.svg": "/E-Ride/static/media/map.4380f71ab33c59c5bfa8.svg",
+    "static/media/bg-how-works.jpg": "/E-Ride/static/media/bg-how-works.df1a7617873c5e839d54.jpg",
+    "static/media/instagram.svg": "/E-Ride/static/media/instagram.ea3d7f7daeec7ac6381c1fcd2708ce43.svg",
+    "static/media/logo-dark.svg": "/E-Ride/static/media/logo-dark.95623672c25fbd351cdb.svg",
+    "static/media/logo.svg": "/E-Ride/static/media/logo.e7359924d4815d1365eb.svg",
+    "static/media/twitter.svg": "/E-Ride/static/media/twitter.3a55a08e07dd27ddadd8372450a01deb.svg",
+    "static/media/health.svg": "/E-Ride/static/media/health.ee00001c49c88b14ffa4cbbb9d7012f0.svg",
+    "static/media/linkedin.svg": "/E-Ride/static/media/linkedin.cfb0819112fc36b9f51cd305a140dda1.svg",
+    "static/media/close-white.svg": "/E-Ride/static/media/close-white.7bffb3d5b75e45a71b5d.svg",
+    "index.html": "/E-Ride/index.html",
+    "static/media/fun.svg": "/E-Ride/static/media/fun.ce91d7c93c692918a3ebeb9b47d9da35.svg",
+    "static/media/environment.svg": "/E-Ride/static/media/environment.0ff859245371762e2582f706610cedef.svg",
+    "static/media/convenient.svg": "/E-Ride/static/media/convenient.12860eb424f24ad18be8e2f24f58ada7.svg",
+    "static/media/flexibility.svg": "/E-Ride/static/media/flexibility.5520b047f9843a562e123db30c542c54.svg",
+    "static/media/effective.svg": "/E-Ride/static/media/effective.39fd349fca2eaea0c6d4758c70e89d29.svg",
+    "static/media/facebook.svg": "/E-Ride/static/media/facebook.31a470823cf688ae213e0283dc2c5295.svg",
+    "static/media/arrow.svg": "/E-Ride/static/media/arrow.9bcd298aaeea2be38c78.svg",
+    "static/media/tick.svg": "/E-Ride/static/media/tick.967f620c5bb64c475007.svg",
+    "static/media/plus.svg": "/E-Ride/static/media/plus.4a82e5cbc4d00a87729c.svg",
+    "static/media/minus.svg": "/E-Ride/static/media/minus.57cbec5ae7689a545339.svg",
+    "main.5e773ffd.css.map": "/E-Ride/static/css/main.5e773ffd.css.map",
+    "main.1d9d5c68.js.map": "/E-Ride/static/js/main.1d9d5c68.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e773ffd.css",
+    "static/js/main.1d9d5c68.js"
+  ]
+}
