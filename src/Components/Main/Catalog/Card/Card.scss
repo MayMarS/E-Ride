@@ -1,0 +1,32 @@
+@import '../../../../variables.scss';
+
+.card{
+    padding: 65px 25px 35px 25px;
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: $colorWhite;
+    border-radius: 16px;
+    transition: .3s;
+    &:hover{
+        // box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 15px 3px rgba(113, 64, 235, 0.7);
+    }
+    img{
+        align-self: center;
+        width: 285px;
+        height: auto;
+    }
+    p, span{
+        font-size: 17px;
+    }
+    h3{
+        font-size: 29px;
+        margin-top: 20px;
+    }
+    .btn-details{
+        height: 62px;
+        margin-top: 20px;
+    }
+}

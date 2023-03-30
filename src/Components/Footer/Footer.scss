@@ -1,0 +1,108 @@
+@import '../../variables.scss';
+
+footer{
+    background-image: url(../../assets/img/bg-footer.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 80px 20px 80px;
+    display: flex;
+    flex-direction: column;
+    color: $colorWhite;
+
+    .footer-main{
+        display: flex;
+        justify-content: space-between;
+
+        .footer-info{
+            width: 30%;
+            h4{
+                font-size: 29px;
+                margin-bottom: 18px;
+            }
+            p{
+                font-size: 16px;
+                line-height: 24px;
+            }
+            form{
+                position: relative;
+                input{
+                    width: 100%;
+                    margin: 25px 0;
+                    height: 55px;
+                    padding: 16px;
+                    background: $colorWhite;
+                    border: none;
+                    outline: none;
+                    border-radius: 10px;
+                    color: $colorDarkGrey;
+                    font-size: 18px;
+                    &::placeholder {
+                        font-size: 18px;
+                        color: rgba(73, 70, 79, 0.8);
+                    }
+                }
+                .btn-input{  
+                    position: absolute;
+                    top: 32px;
+                    right: 12px;
+                    background-color: transparent;
+                    border: none;
+                    padding: 0;
+                    &::before{
+                        width: 32px;
+                        height: 32px;
+                        background-image: url(../../assets/img/arrow.svg);
+                        background-size: 32px 32px;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        content: "";
+                        transition: .5s;
+                    }
+                    &:hover {
+                        &::before{
+                            transform: scale(1.2);
+                        }
+                    }
+                }
+            }
+            span{
+                display: block;
+                font-size: 14px;
+                line-height: 21px;
+            }
+        }
+        .footer-menu{
+            width: 60%;
+            display: flex;
+            justify-content: space-between;
+            ul{
+                list-style-type: none;
+                padding: 0;
+                font-size: 16px;
+                li{
+                    margin-bottom: 16px;
+                    a{
+                        color: $colorWhite;
+                    }
+                    &:first-child a{
+                        color: rgba(255, 255, 255, 0.5);
+                    }
+                }
+            }
+        }
+    }
+    .footer-social{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 90px;
+        a{
+            display: flex;
+            margin-left: 5px;
+            img{
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+}

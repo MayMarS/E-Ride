@@ -1,0 +1,55 @@
+@import '../../../variables.scss';
+
+.ride{
+    width: 100%;
+    padding: 75px 0;
+    color: $colorDarkGrey;
+    background-color: $colorWhite;
+
+    .ride-div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .ride-info{
+            width: 25%;
+
+            h2{
+                font-size: 65px;
+                line-height: 67px;
+            }
+            p{
+                font-size: 21px;
+                line-height: 25px;
+                margin: 27px 0 35px 0;
+            }
+            ul{
+                padding: 0;
+                list-style-type: none;
+                li{
+                    width: fit-content;
+                    padding: 7px 16px 7px 50px;
+                    margin-bottom: 16px;
+                    font-size: 16px;
+                    background-color: $bgColorGrey;
+                    border-radius: 100px;
+                    position: relative;
+                    &::before{
+                      width: 16px;
+                      height: 16px;
+                      background-image: url(../../../assets/img/tick.svg);
+                      background-size: 16px 16px;
+                      background-position: center;
+                      background-repeat: no-repeat;
+                      content: "";
+                      position: absolute;
+                      top: 9px;
+                      left: 20px;
+                    }
+                }
+            }
+        }
+        // .ride-tabs{
+        // }
+    }
+}

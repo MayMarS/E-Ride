@@ -1,0 +1,29 @@
+@import '../../../variables.scss';
+
+.learn-more{
+    width: 100%;
+    padding: 95px 0;
+    color: $colorDarkGrey;
+    background-color: $bgColorGrey;
+
+    .learn-div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .learn-title{
+            width: 25%;
+            h2{
+                font-size: 65px;
+                line-height: 67px;
+                margin-bottom: 50px;
+            }
+            .btn-more::after{
+                top: 11px;
+                right: 35px;
+            }
+        }
+        // .learn-info{
+        // }
+    }
+}

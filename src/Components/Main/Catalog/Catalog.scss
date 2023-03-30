@@ -1,0 +1,26 @@
+@import '../../../variables.scss';
+
+.catalog{
+    width: 100%;
+    padding: 70px 0;
+    color: $colorDarkGrey;
+    background-color: $bgColorGrey;
+
+    h2{
+        font-size: 67px;
+        margin-bottom: 27px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .bikes-div{
+        margin-top: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    //    .card{
+    //    }
+    }
+}
+
+//modal

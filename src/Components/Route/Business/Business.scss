@@ -1,0 +1,156 @@
+@import '../../../variables.scss';
+
+.business{
+    padding: 140px 0 70px 0;
+    width: 100%;
+    background-color: $colorWhite;
+    color: $colorDarkGrey;
+    background-image: url(../../../assets/img/map.svg);
+    background-size: 950px 700px;
+    background-position: 650px 0;
+    background-repeat: no-repeat;
+    position: relative;
+    &::before{
+        width: 100%;
+        height: 72px;
+        background-color: #a9a9a9;
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .business-div{
+        width: 70%;
+
+        h4{
+            padding-left: 70px;
+            color: $colorViolet;
+            font-weight: 500;
+            font-size: 25px;
+            position: relative;
+            &::before{
+                width: 50px;
+                height: 2px;
+                background-color: $colorViolet;
+                content: "";
+                position: absolute;
+                top: 22px;
+                left: 0;
+            }
+        }
+        h2{
+            font-size: 46px;
+            margin: 30px 0 50px 0;
+        }
+        .business-info{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            justify-content: space-between;
+
+            .article{
+                width: 45%;
+                margin-bottom: 40px;
+                span{
+                    display: block;
+                    font-size: 22px;
+                }
+                p{
+                    font-size: 17px;
+                    line-height: 24px;
+                    color: #b7b0b0;
+                    margin: 15px 0;
+                }
+                .num{
+                    width: 55px;
+                    height: 55px;
+                    background-color: #f5f5f5;
+                    border-radius: 50%;
+                    color: $colorViolet;
+                    font-size: 30px;
+                    margin-bottom: 20px;
+                    padding: 9px 0 0 11px;
+                }
+                .btn-business{
+                    padding: 0;
+                    height: 20px;
+                    font-size: 17px;
+                    color: $colorDarkGrey;
+                    background-color: transparent;
+                    border: none;
+                    position: relative;
+                    transition: .5s;
+                    &::after {
+                        width: 19px;
+                        height: 19px;
+                        background-image: url(../../../assets/img/arrow.svg);
+                        background-size: 19px 19px;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        content: "";
+                        position: absolute;
+                        top: 1px;
+                        left: 45px;
+                        transition: .5s;
+                    }
+                    &:hover {
+                        transform: scale(1.2);
+                        &::after{
+                            transform: scale(1.2);
+                        }
+                    }
+                }
+                .btn-contact-us{
+                    padding: 0 40px;
+                    font-size: 16px;
+                    color: $colorDarkGrey;
+                    background-color: transparent;
+                    border: 2px solid $colorDarkGrey;
+                    &:hover{
+                      background-color: transparent;
+                      border: 2px solid $colorViolet;
+                      box-shadow: inset 0 0 20px $colorViolet;
+                    }
+                }
+            }
+        }
+    }
+    .city{
+        padding-left: 17px;
+        color: $colorViolet;
+        font-size: 16px;
+        position: absolute;
+        &::before{
+            background: $colorViolet;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            content: "";
+            position: absolute;
+            top: 5px;
+            left: 0;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0px rgba(113, 64, 235, 0.5);
+            }
+            100% {
+                box-shadow: 0 0 0 8px rgba(113, 64, 235, 0.2);
+            }
+        }
+    }
+    .paris{
+        top: 260px;
+        left: 875px;
+    }
+    .berlin{
+        top: 195px;
+        left: 1050px;
+    }
+    .vienna{
+        top: 316px;
+        left: 1088px;
+    }
+}

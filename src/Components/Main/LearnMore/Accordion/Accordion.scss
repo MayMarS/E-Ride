@@ -1,0 +1,53 @@
+@import '../../../../variables.scss';
+
+.learn-info{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 0 15px 3px rgba(113, 64, 235, 0.7);
+    // box-shadow: 0 8px 11px 2px rgba(0, 0, 0, 0.2);
+    .info{
+        background-color: $colorWhite;
+        margin: 2px;                
+
+        .show-info{
+            width: 100%;
+            position: relative; 
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            cursor: pointer;
+
+            h4{
+                font-size: 21px;
+                padding-left: 45px;
+            }
+            .btn-arrows{
+                width: 25px;
+                height: 25px;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 30px 30px;
+                position: absolute;
+                content: "";
+                top: 20px;
+                left: 20px;
+                cursor: pointer;
+            }
+            .btn-plus{
+                background-image: url(../../../../assets/img/plus.svg);
+            }
+            .btn-minus{
+                background-image: url(../../../../assets/img/minus.svg);
+            }
+        }
+        .show-text{
+            p{
+                padding: 20px;
+                line-height: 26px;
+                text-align: justify;
+            }
+        }
+    }
+}

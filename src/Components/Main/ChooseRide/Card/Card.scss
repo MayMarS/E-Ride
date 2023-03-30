@@ -1,0 +1,83 @@
+@import '../../../../variables.scss';
+
+.ride-tabs{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+
+    .ride-btns{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        .btn-ride{
+            height: 50px;
+            font-size: 20px;
+            color: $colorViolet;
+            background-color: $bgColorGrey;
+            border: 1px solid $colorViolet;
+            border-top: 2px solid $colorViolet;
+            border-bottom: 2px solid $colorViolet;
+            border-radius: 0;
+            flex: 1;
+            &:first-child{
+                border-radius: 16px 0 0 16px;
+                border-left: 2px solid $colorViolet;
+            }
+            &:last-child{
+                border-radius: 0 16px 16px 0;
+                border-right: 2px solid $colorViolet;
+            }
+            &:hover{
+                box-shadow: inset 0 0 15px $colorViolet;
+            }
+        }
+        .btn-active{
+            color: $colorWhite;
+            background-color: $colorViolet;
+            border: 2px solid $colorViolet;
+        }
+    }
+    .ride-card{
+        margin-top: 17px;
+        padding: 35px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: $bgColorGrey;
+        border-radius: 16px;
+        // box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 15px 3px rgba(113, 64, 235, 0.7);
+        .card-info{
+            width: 35%;
+            h3{
+                font-size: 29px;
+                margin-bottom: 30px;
+            }
+            p{
+                font-size: 17px;
+                margin: 10px 0;
+                line-height: 26px;
+                text-align: justify;
+            }
+            span, .kind{
+                font-size: 17px;
+                font-weight: 500;
+                color: #7a6767;
+            }
+            .btn-start{
+                height: 62px;
+                margin-top: 30px;
+                &:hover{
+                    color: $colorViolet;
+                    border: 2px solid $colorViolet; 
+                }
+            }
+        }
+        img{
+            width: 450px;
+            height: auto;
+        }
+    }
+}

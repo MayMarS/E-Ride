@@ -1,0 +1,46 @@
+@import '../../../variables.scss';
+
+.cities{
+    height: 100vh;
+    background-image: url(../../../assets/img//bg-cities.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .cities-div{
+        padding: 100px 0 60px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: $colorWhite;
+        .cities-info {
+            width: 30%;
+            
+            h3{
+                font-size: 65px;
+                line-height: 67px;
+                margin-bottom: 14px;
+            }
+            p{
+                font-size: 21px;
+                line-height: 25px;
+            }
+        }
+        .btn-start{
+            margin: 32px 0 32px 0;
+        }
+        a{
+            font-size: 18px;
+            color: $colorWhite;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+        .cities-names h2{
+            font-size: 90px;
+            line-height: 111px;
+            letter-spacing: 5px;
+            text-align: right;
+        }
+    }
+}
