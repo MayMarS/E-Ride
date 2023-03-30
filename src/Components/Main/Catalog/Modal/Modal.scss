@@ -51,13 +51,21 @@
             h3{
                 font-size: 30px;
             }
+            .kind{
+                font-size: 17px;
+                font-weight: 500;
+                color: #7a6767;
+                margin: 5px 0 20px 0;
+            }
             p{
                 font-size: 17px;
-                line-height: 26px;
-                margin: 10px 0;
+                line-height: 1.5;
                 text-align: justify;
             }
-            span, .kind{
+            .from{
+                margin: 10px 0 20px 0;
+             }
+            .price{
                 font-size: 17px;
                 font-weight: 500;
                 color: #7a6767;

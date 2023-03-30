@@ -8,10 +8,10 @@ const Modal = (props) => {
                 <img src={props.modal.image} alt="bike"/>
                 <div className="text">
                     <h3>{props.modal.model}</h3>
-                    <p>From €<span className="price">{props.modal.price}</span></p>
                     <p className="kind">{props.modal.kind}</p>
                     <p>{props.modal.description}</p>
                     <p>{props.modal.text}</p>
+                    <p className="from">From €<span className="price">{props.modal.price}</span></p>
                     <button className="btn-start">Start now</button>
                 </div>
             </div>

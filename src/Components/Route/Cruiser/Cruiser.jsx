@@ -9,6 +9,16 @@ const Cruiser = (props) => {
                         <h2>{props.info.model}</h2>
                         <p className="kind">{props.info.kind}</p>
                         <p className="description">{props.info.description}</p>
+                        <h3>Advantages</h3>
+                        {
+                            props.info.advantages.map(item => {
+                                return(
+                                    <ul>
+                                        <li>{item}</li>
+                                    </ul>
+                                )
+                            })
+                        }
                         <div className="price-wrap">
                             <p className="from">From €<span className="price">{props.info.price}</span></p>
                             <button className="btn-start">Start now</button>
