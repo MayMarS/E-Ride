@@ -31,8 +31,24 @@ header{
             color: $colorWhite;
             margin-right: 37px;
             transition: .3s;
-            &:hover{
-                text-decoration: underline;
+            position: relative;
+            &::after{
+                width: 25px;
+                height: 2px;
+                background-color: $colorWhite;
+                content: "";
+                position: absolute;
+                top: 23px;
+                left: -10px;
+                opacity: 0;
+                transition: .7s;
+            }
+            &:hover {
+                &::after{
+                    opacity: 1;
+                    left: 100%;
+                    transform: translate(-100%);
+                }
             }
         }
     }
@@ -50,6 +66,9 @@ header{
     }
     .header-info nav a{
         color: $colorDarkGrey;
+        &::after{
+            background-color: $colorDarkGrey;
+        }
     }
     .btn-start:hover{
         color: $colorViolet;
