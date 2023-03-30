@@ -1,4 +1,21 @@
+import {useState, useEffect} from 'react';
 import './Business.scss';
+
+const More = (props) => {
+    const [moreInfo, setInfo] = useState(null);
+
+    useEffect( () => {
+        // console.log('component changed');
+    })
+
+    return(
+        <div>
+            <button onClick={() => setInfo(props.more.moreText)} className="btn-business">More</button>
+            <p>{moreInfo}</p>
+            <button className="btn-contact-us">Contact us</button>
+        </div>
+    )
+}
 
 const Article = (props) => {
     return(
@@ -6,8 +23,7 @@ const Article = (props) => {
             <span className="num">{props.article.num}</span>
             <span>{props.article.title}</span>
             <p>{props.article.text}</p>
-            <p>{props.article.moreText}</p>
-            <button className="btn-contact-us">Contact us</button>
+            {<More more={props.article} />}
         </div>
     )
 }
