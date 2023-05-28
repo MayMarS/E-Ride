@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/E-Ride/static/css/main.253deff2.css",
-    "main.js": "/E-Ride/static/js/main.036aa7cd.js",
+    "main.css": "/E-Ride/static/css/main.0a2dab6c.css",
+    "main.js": "/E-Ride/static/js/main.ec05bc80.js",
     "static/media/bg-cities.jpg": "/E-Ride/static/media/bg-cities.cee37f709c2e5f3a48d0.jpg",
     "static/media/cruiser.png": "/E-Ride/static/media/cruiser.4053b873ce9b65abcac8.png",
     "static/media/explorer.png": "/E-Ride/static/media/explorer.9af1652689c27b12001c.png",
@@ -24,15 +24,18 @@
     "static/media/flexibility.svg": "/E-Ride/static/media/flexibility.5520b047f9843a562e123db30c542c54.svg",
     "static/media/effective.svg": "/E-Ride/static/media/effective.39fd349fca2eaea0c6d4758c70e89d29.svg",
     "static/media/facebook.svg": "/E-Ride/static/media/facebook.31a470823cf688ae213e0283dc2c5295.svg",
+    "static/media/btn-menu-close.svg": "/E-Ride/static/media/btn-menu-close.828274144c726859bbed.svg",
     "static/media/arrow.svg": "/E-Ride/static/media/arrow.9bcd298aaeea2be38c78.svg",
     "static/media/tick.svg": "/E-Ride/static/media/tick.967f620c5bb64c475007.svg",
+    "static/media/btn-menu-open-dark.svg": "/E-Ride/static/media/btn-menu-open-dark.6707ce54b224907f432c.svg",
+    "static/media/btn-menu-open-white.svg": "/E-Ride/static/media/btn-menu-open-white.1fe29ec558c92dcfd26a.svg",
     "static/media/plus.svg": "/E-Ride/static/media/plus.4a82e5cbc4d00a87729c.svg",
     "static/media/minus.svg": "/E-Ride/static/media/minus.57cbec5ae7689a545339.svg",
-    "main.253deff2.css.map": "/E-Ride/static/css/main.253deff2.css.map",
-    "main.036aa7cd.js.map": "/E-Ride/static/js/main.036aa7cd.js.map"
+    "main.0a2dab6c.css.map": "/E-Ride/static/css/main.0a2dab6c.css.map",
+    "main.ec05bc80.js.map": "/E-Ride/static/js/main.ec05bc80.js.map"
   },
   "entrypoints": [
-    "static/css/main.253deff2.css",
-    "static/js/main.036aa7cd.js"
+    "static/css/main.0a2dab6c.css",
+    "static/js/main.ec05bc80.js"
   ]
 }
