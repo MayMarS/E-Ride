@@ -22,5 +22,15 @@
     //    }
     }
 }
-
 //modal
+
+@media (max-width: 768px) {
+    .catalog{
+        h2{
+            font-size: 50px;
+        }
+        .bikes-div{
+            flex-direction: column;
+        }
+    }
+}

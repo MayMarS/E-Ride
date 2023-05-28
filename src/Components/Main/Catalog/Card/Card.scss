@@ -3,7 +3,7 @@
 .card{
     padding: 65px 25px 35px 25px;
     width: 30%;
-    height: auto;
+    height: 550px;
     display: flex;
     flex-direction: column;
     background-color: $colorWhite;
@@ -28,5 +28,28 @@
     .btn-details{
         height: 62px;
         margin-top: 20px;
+    }
+}
+
+@media (max-width: 850px) {
+    .card{
+        height: 500px;
+        img{
+            width: 230px;
+        }
+        h3{
+            font-size: 25px;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .card{
+        width: 90%;
+        height: auto;
+        margin-bottom: 10px;
+        padding: 40px 25px;
+        h3{
+            font-size: 30px;
+        }
     }
 }

@@ -51,3 +51,24 @@
         }
     }
 }
+
+@media (max-width: 576px) {
+    .learn-info{
+        .info{
+            .show-info{
+                padding: 15px;
+                .btn-arrows{
+                    top: 15px;
+                }
+                h4 {
+                    font-size: 18px;
+                }
+            }
+            .show-text p {
+                font-size: 16px;
+                padding: 16px;
+                line-height: 24px;
+            }
+        }
+    }
+}

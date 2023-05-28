@@ -5,10 +5,9 @@
     padding: 70px 0;
     background-color: $colorWhite;
     background-image: url(../../../assets/img/bg-how-works.jpg);
-    background-size: 765px 360px;
+    background-size: 750px auto;
     background-position: right 150px;
     background-repeat: no-repeat;
-
     h2{
         font-size: 67px;
         line-height: 67px;
@@ -32,4 +31,54 @@
             border: 2px solid $colorViolet; 
         }
     }
+    img{
+        display: none;
+    }
 }
+
+@media (max-width: 1200px) {
+    .how-works{
+        background-size: 650px auto;
+    }
+}
+@media (max-width: 992px) {
+    .how-works{
+        background-size: 550px auto;
+    }
+}
+@media (max-width: 900px) {
+    .how-works{
+        background-size: 0;
+        .btn-start{
+            margin-bottom: 30px;
+        }
+        img{
+            display: block;
+            width: 650px;
+            height: auto;
+            margin-left: auto;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .how-works{
+        h2 {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+        img{
+            width: 100%;
+        }
+    }
+}
+@media (max-width: 576px) {
+    .how-works{
+        ul{
+            li{
+                font-size: 24px;
+                line-height: 30px;
+            }
+        }
+    }
+}
+@media (max-width: 350px) {}

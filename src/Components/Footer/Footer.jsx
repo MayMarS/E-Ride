@@ -42,6 +42,9 @@ const Footer = (props) => {
             <div className="footer-social">
                 {social}
             </div>
+            <p className="made-by">
+                Made by MayMarS
+            </p>
         </footer>
     )
 }

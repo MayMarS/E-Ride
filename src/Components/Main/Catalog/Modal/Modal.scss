@@ -8,13 +8,14 @@
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 2;
     display: none;
     // display: flex;
     justify-content: center;
     align-items: center;
 
     .modal-content{
-        width: 800px;
+        width: 80%;
         height: auto;
         background-color: $colorWhite;
         border-radius: 24px;
@@ -42,11 +43,11 @@
             cursor: pointer;
         }
         img{
-            width: 400px;
+            width: 45%;
             height: auto;
         }
         .text{
-            width: 60%;
+            width: 55%;
 
             h3{
                 font-size: 30px;
@@ -80,3 +81,54 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .bikes-modal{
+        .modal-content{
+            .text{
+                p {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 650px) {
+    .bikes-modal{
+        .modal-content{
+            width: 100%;
+            height: 100%;
+            top: 72px;
+            border-radius: 0;
+            .close-btn{
+                background-image: url(../../../../assets/img/btn-menu-close.svg);
+                width: 20px;
+                height: 20px;
+                top: 30px;
+                right: 30px;
+            }
+            img{
+                width: 40%;
+            }
+            .text {
+                width: 100%;
+            }
+        }
+    }
+}
+@media (max-width: 500px) {
+    .bikes-modal{
+        .modal-content{
+            height: calc(100% - 72px);
+            flex-direction: column;
+            padding: 30px;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            img{
+                width: 60%;
+            }
+        }
+    }
+}
+
+

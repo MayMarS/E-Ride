@@ -1,12 +1,8 @@
-import {useState, useEffect} from 'react';
+import {useState } from 'react';
 import './Business.scss';
 
 const More = (props) => {
     const [moreInfo, setInfo] = useState(null);
-
-    useEffect( () => {
-        // console.log('component changed');
-    })
 
     return(
         <div>

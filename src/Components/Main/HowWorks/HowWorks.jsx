@@ -1,4 +1,5 @@
 import './HowWorks.scss';
+import bgImg from '../../../assets/img/bg-how-works.jpg'
 
 const HowWorks = () => {
     return (
@@ -13,6 +14,7 @@ const HowWorks = () => {
                 </ul>
                 <button className="btn-start">Start now</button>
             </div>
+            <img src={bgImg} alt="bike images"></img>
         </section>
     )
 }

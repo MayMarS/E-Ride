@@ -21,7 +21,7 @@
     }
 
     .business-div{
-        width: 70%;
+        width: 80%;
 
         h4{
             padding-left: 70px;
@@ -152,5 +152,51 @@
     .vienna{
         top: 316px;
         left: 1088px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .business{
+        background-size: 100%;
+        background-position: 400px 50px;
+        .business-div {
+            width: 100%;
+        }
+        .city{
+            display: none;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .business{
+        background-size: 0;
+        .business-div{
+            h2 {
+                font-size: 40px;
+            }
+            .business-info {
+                flex-direction: column;
+                .article{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 576px) {
+    .business{
+        .business-div{
+            h2 {
+                font-size: 30px;
+            }
+            .business-info {
+                .article{
+                    p {
+                        font-size: 16px;
+                        line-height: 22px;
+                    }
+                }
+            }
+        }
     }
 }

@@ -76,8 +76,69 @@
             }
         }
         img{
-            width: 450px;
+            width: 60%;
             height: auto;
         }
     }
 }
+
+@media (max-width: 1200px) {
+    .ride-tabs{
+        .ride-btns{
+            .btn-ride{
+                padding: 0 20px;           
+                font-size: 16px;
+            }
+        }
+    }
+}
+@media (max-width: 992px) {
+    .ride-tabs{
+        .ride-card{
+            .card-info {
+                width: 50%;
+            }
+            img {
+                width: 50%;
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+    .ride-tabs{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+}
+@media (max-width: 576px) {
+    .ride-tabs{
+        .ride-btns{
+            .btn-ride{
+                padding: 0 5px;           
+                font-size: 14px;
+            }
+        }
+        .ride-card{
+            .card-info {
+                width: 100%;
+                .btn-start {
+                    margin: 30px auto 0;
+                }
+            }
+            img {
+                width: 0;
+            }
+        }
+    }
+}
+@media (max-width: 450px) {
+    .ride-tabs{
+        .ride-btns{
+            .btn-ride{
+                white-space: inherit;
+            }
+        }
+    }
+}
+
