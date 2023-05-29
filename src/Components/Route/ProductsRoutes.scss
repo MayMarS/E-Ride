@@ -72,8 +72,8 @@
                 background-color: #ebebeb;
                 right: 0;
                 bottom: 0;
-                padding: 20px 20px;
-                z-index: 5;
+                padding: 20px;
+                z-index: 4;
                 display: flex;
                 align-items: center;
                 .price, .kind{
@@ -83,7 +83,7 @@
                 }
                 .btn-start{
                     height: 36px;
-                    padding: 0 30px 0 30px;
+                    padding: 0 30px;
                     font-size: 15px;
                     margin-left: 15px;
                     &:hover{

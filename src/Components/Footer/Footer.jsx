@@ -1,8 +1,9 @@
 import './Footer.scss';
+import { NavLink } from 'react-router-dom';
 
 const Link = (props) => {
     return(
-        <li><a href="#">{props.link}</a></li>
+        <li><NavLink to="/">{props.link}</NavLink></li>
     )
 }
 const Social = (props) => {
@@ -43,7 +44,7 @@ const Footer = (props) => {
                 {social}
             </div>
             <p className="made-by">
-                Made by MayMarS
+                © Made by MayMarS - 2023
             </p>
         </footer>
     )

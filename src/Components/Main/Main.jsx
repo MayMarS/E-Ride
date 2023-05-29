@@ -7,6 +7,7 @@ import ChooseRide from './ChooseRide/ChooseRide';
 import LearnMore from './LearnMore/LearnMore';
 
 const Main = (props) => {
+    window.scrollTo(0,0);
     return (
         <main>
             <MainSection />
