@@ -10,10 +10,10 @@ The project has a presentational nature, the functionality is quite limited as t
 
 In the future it is planned to implement feachures such as to allow users to browse available e-bikes, make reservations and manage their rentals. 
 
-## Technologies Used:
+## Technologies Used
 HTML5/CSS3, SCSS, JavaScript, React, Git/GitHub
 
-## How to Use the Project:
+## How to Install and Run the Project
 
 ### Prerequisites:
 Node.js (version from 18)
