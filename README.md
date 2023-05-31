@@ -16,21 +16,26 @@ HTML5/CSS3, SCSS, JavaScript, React, Git/GitHub
 ## How to Use the Project:
 
 ### Prerequisites:
-- Node.js (version from 18)
+Node.js (version from 18)
 
 ### Installation:
 In a separate terminal:
 
 1. Clone the repository (main branch):
+
 git clone --branch main https://github.com/MayMarS/E-Ride.git
 
 2. Navigate to the project directory:
+
 cd E-Ride
 
 3. Install the dependencies:
+
 npm install
 
 ### Running the Application:
+
 npm start
+
 Open your browser and navigate to `http://localhost:3000` to access the E-Bike Rental web application.
 
